@@ -1,0 +1,13 @@
+[package]
+name = "bl602-async"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+riscv-rt = "0.8.0"
+bl602-hal = { git = "https://github.com/bjoernQ/bl602-hal", rev="1c01005ca9fccea2cf2299f53f04822f696b48a7" }
+panic-halt = "0.2.0"
+riscv = "0.6.0"
+embedded-time = "0.10.1"
+nb = "1.0.0"
+futures = { version = "0.3", default-features = false }
